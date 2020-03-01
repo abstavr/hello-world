@@ -80,22 +80,12 @@ for(unsigned long long i=0, p=1, f=1; i<21 ; )
 double v; int p, k;
   std::cout << "Enter fraction, P, and digits number>";
   std::cin >> v >> p >> k;
- //поточна цифра
-   if ( (0 <= v) && (v < 1) && (p>1) && (k > 0) )
+    if ( (0 <= v) && (v < 1) && (p>1) && (k > 0) )
      for( int d ; k > 0 ; k--){
        v *= p; d = int(v); v -= d;
        std::cout << d;
      }
 
-
-/*
-  std::cout << "\nPress Enter";
-  std::cin.get();
-*/
- // return 0;
-/*
-system("pause");
-*/
 }
 
 //int main(){}
