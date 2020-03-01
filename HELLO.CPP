@@ -38,8 +38,6 @@ cout << "a=" << aa << ' ' << "b=" << b << '\n';
 //cout << (-b-sqrt(d))/(2*a) << ';'<< (-b+sqrt(d))/(2*a) << '\n';
 //cout << sqrt(b*b-4*a*c) << ' ' << pow(abs(-2),1.023995e3) << endl;
 //cout << (0.0 || 1) << ' ' << sizeof (b*b-4*a*c>0) << endl;
-//k = (d=b*b-4*a*c)>0 ? 2 : d==0 ? 1 : 0 ;
-//cout << k << endl;
 while(cin>>k)
   cout << k << "\n";
 cout << "<<" << k << ">>";
